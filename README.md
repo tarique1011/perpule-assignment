@@ -6,12 +6,19 @@ make the POST and GET requests.
 `To get Access Token`
 
 POST https://customer-api-perpule.herokuapp.com/oauth/token?grant_type=password&username=perpule&password=perpule
-With headers 
-Basic Authorization
+
+With headers
+
+## Basic Authorization
+
 Username: my-trusted-client
 Password: secret
 
+Content-type: application/json
+
+
 This will give an access token which is valid for 20 minutes.
+
 
 `GET Method`
 
@@ -40,7 +47,7 @@ Body:
         "location": "Jaipur"
 }
 
-Additional Feature:
+## Additional Feature:
 
 `DELETE METHOD`
 
