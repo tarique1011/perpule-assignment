@@ -38,7 +38,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
             .authorities("ROLE_CLIENT", "ROLE_TRUSTED_CLIENT")
             .scopes("read", "write", "trust")
             .secret("secret")
-            .accessTokenValiditySeconds(5000);
+            .accessTokenValiditySeconds(1200);//access Token is available for 20 minutes
     }
  
     @Override
