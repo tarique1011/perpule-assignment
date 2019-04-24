@@ -25,12 +25,12 @@ This will give an access token which is valid for 20 minutes.
 
 `GET Method`
 
-GET https://customer-api-perpule.herokuapp.com/Customers?acess_token={retreived_access_token}
+GET https://customer-api-perpule.herokuapp.com/Customers?access_token={retreived_access_token}
 
 Gives you info about all the customers.
 
 
-GET https://customer-api-perpule.herokuapp.com/Customers/{customerId}?acess_token={retreived_access_token}
+GET https://customer-api-perpule.herokuapp.com/Customers/{customerId}?access_token={retreived_access_token}
 
 Gives you info about a customer with given {customerId}
 
@@ -39,7 +39,7 @@ A sample has been provided with customerId=1.
 
 `POST Method`
 
-POST https://customer-api-perpule.herokuapp.com/Customers?acess_token={retreived_access_token}
+POST https://customer-api-perpule.herokuapp.com/Customers?access_token={retreived_access_token}
 
 Lets you post info about a customer.
 
