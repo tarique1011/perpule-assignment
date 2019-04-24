@@ -9,7 +9,7 @@ POST https://customer-api-perpule.herokuapp.com/oauth/token?grant_type=password&
 
 With headers
 
-## Basic Authorization
+### Basic Authorization
 
 Username: my-trusted-client
 Password: secret
