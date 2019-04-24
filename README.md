@@ -26,23 +26,27 @@ This will give an access token which is valid for 20 minutes.
 `GET Method`
 
 GET https://customer-api-perpule.herokuapp.com/Customers?acess_token={retreived_access_token}
+
 Gives you info about all the customers.
 
 
 GET https://customer-api-perpule.herokuapp.com/Customers/{customerId}?acess_token={retreived_access_token}
+
 Gives you info about a customer with given {customerId}
+
 A sample has been provided with customerId=1.
 
 
 `POST Method`
 
 POST https://customer-api-perpule.herokuapp.com/Customers?acess_token={retreived_access_token}
+
 Lets you post info about a customer.
 
 Body:
 
 {	
-		"customerId" : 1,
+	"customerId" : 1,
         "name": "Tarique",
         "number": "8003510632",
         "age": 23,
@@ -55,4 +59,5 @@ Body:
 `DELETE METHOD`
 
 DELETE https://customer-api-perpule.herokuapp.com/Customers/{customerId}?acess_token={retreived_access_token}
+
 Lets you delete a customer with given {customerId}
