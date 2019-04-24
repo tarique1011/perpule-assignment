@@ -12,12 +12,15 @@ With headers
 ### Basic Authorization
 
 Username: my-trusted-client
+
 Password: secret
 
-Content-type: application/json
+### Content-type: application/json
 
 
 This will give an access token which is valid for 20 minutes.
+
+### To make requests with access token
 
 
 `GET Method`
