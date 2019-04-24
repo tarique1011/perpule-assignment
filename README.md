@@ -58,6 +58,6 @@ Body:
 
 `DELETE METHOD`
 
-DELETE https://customer-api-perpule.herokuapp.com/Customers/{customerId}?acess_token={retreived_access_token}
+DELETE https://customer-api-perpule.herokuapp.com/Customers/{customerId}?access_token={retreived_access_token}
 
 Lets you delete a customer with given {customerId}
